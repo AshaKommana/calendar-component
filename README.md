@@ -13,8 +13,11 @@ It is inspired by a wall calendar design and focuses on combining clean UI with 
 
 - 📆 **Date Range Selection**
   - Select start and end dates
+    
   - Start date → Green
+    
   - End date → Red
+    
   - Range → Highlighted
 
 - 🔄 **Month Navigation**
@@ -22,6 +25,7 @@ It is inspired by a wall calendar design and focuses on combining clean UI with 
 
 - 📝 **Notes Section**
   - Add notes for the month
+  
   - Stored using localStorage (persists after refresh)
 
 - ❌ **Clear Selection**
@@ -29,6 +33,7 @@ It is inspired by a wall calendar design and focuses on combining clean UI with 
 
 - 📱 **Responsive Design**
   - Works on desktop and mobile
+    
   - Layout adjusts automatically
 
 ---
@@ -36,7 +41,9 @@ It is inspired by a wall calendar design and focuses on combining clean UI with 
 ## 🛠 Tech Stack
 
 - React.js
+  
 - JavaScript (ES6)
+  
 - CSS (Flexbox + Media Queries)
 
 ---
@@ -44,9 +51,13 @@ It is inspired by a wall calendar design and focuses on combining clean UI with 
 ## 🧠 Key Concepts Used
 
 - React State Management (`useState`, `useEffect`)
+
 - Event Handling
+  
 - Conditional Rendering
+  
 - Local Storage Integration
+  
 - Responsive Design using Media Queries
 
 ---
@@ -57,10 +68,15 @@ It is inspired by a wall calendar design and focuses on combining clean UI with 
 git clone https://github.com/AshaKommana/calendar-component.git
 
 Navigate to project folder
+
 cd calendar-component
+
 Install dependencies
+
 npm install
+
 Run the project
+
 npm start
 
 ---
@@ -71,13 +87,17 @@ npm start
 
 ## 💡 Future Improvements
 Add animations (calendar flip effect)
+
 Add theme switching
+
 Add event-based notes per date
+
 Highlight holidays
 
 ## 🙋‍♀️ Author
 
 Asha Kommana
+
 Computer Science Engineering Student
 
 ## ⭐ Conclusion
