@@ -54,7 +54,7 @@ It is inspired by a wall calendar design and focuses on combining clean UI with 
 ## 📦 Installation & Setup
 
 1. Clone the repository
-git clone https://github.com/YOUR_USERNAME/calendar-component.git
+git clone https://github.com/AshaKommana/calendar-component.git
 
 Navigate to project folder
 cd calendar-component
@@ -67,7 +67,7 @@ npm start
 
 ## 🎥 Demo Video
 
-Attach your video link here (Loom / YouTube)
+
 
 ## 💡 Future Improvements
 Add animations (calendar flip effect)
