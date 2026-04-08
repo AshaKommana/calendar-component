@@ -54,8 +54,6 @@ It is inspired by a wall calendar design and focuses on combining clean UI with 
 ## 📦 Installation & Setup
 
 1. Clone the repository
-
-```bash
 git clone https://github.com/YOUR_USERNAME/calendar-component.git
 
 Navigate to project folder
@@ -66,6 +64,7 @@ Run the project
 npm start
 
 ---
+
 ## 🎥 Demo Video
 
 Attach your video link here (Loom / YouTube)
@@ -84,7 +83,6 @@ Computer Science Engineering Student
 ## ⭐ Conclusion
 
 This project demonstrates my ability to:
-
 Build responsive UI components
 Handle user interactions efficiently
 Apply frontend best practices using React
