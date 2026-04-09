@@ -1,6 +1,7 @@
 # 📅 Interactive Calendar Component
 
 ## 🚀 Overview
+
 This project is a responsive and interactive calendar component built using React.  
 It is inspired by a wall calendar design and focuses on combining clean UI with practical functionality like date selection and note-taking.
 
@@ -8,91 +9,132 @@ It is inspired by a wall calendar design and focuses on combining clean UI with 
 
 ## ✨ Features
 
-- 📌 **Wall Calendar UI**
-  - Clean layout with a hero image and month display
-
-- 📆 **Date Range Selection**
-  - Select start and end dates
-    
-  - Start date → Green
-    
-  - End date → Red
-    
-  - Range → Highlighted
-
-- 🔄 **Month Navigation**
-  - Navigate between months using arrow buttons
-
-- 📝 **Notes Section**
-  - Add notes for the month
+### 📌 Wall Calendar UI
+- Clean and modern layout inspired by physical calendars
   
-  - Stored using localStorage (persists after refresh)
+- Hero image with dynamic month and year display
 
-- ❌ **Clear Selection**
-  - Reset selected dates instantly
+---
 
-- 📱 **Responsive Design**
-  - Works on desktop and mobile
+### 📆 Date Range Selection
+- Select start and end dates easily
+   
+- Visual feedback:
+  
+  - 🟢 Start Date → Green
     
-  - Layout adjusts automatically
+  - 🔴 End Date → Red
+    
+  - 🔵 Range → Highlighted  
+
+---
+
+### 🎯 Holiday & Festival Integration
+- Supports multiple types of holidays:
+  
+  - 🇮🇳 National Holidays (Republic Day, Independence Day)
+    
+  - 🪔 Hindu Festivals (Holi, Diwali, Dussehra, Ugadi)
+    
+  - ☪️ Muslim Festivals (Eid)
+    
+  - ✝️ Christian Holidays (Christmas, Good Friday, Easter)
+    
+  - 📚 Observance Days (Teacher’s Day, Children’s Day)
+
+- Displays:
+  - Highlighted dates in calendar
+      
+  - Festival list for each month
+    
+  - Tooltip on hover  
+
+---
+
+### 📝 Notes Section
+- Add personal notes for the month
+    
+- Data persists using **localStorage**
+    
+- Clear selection functionality included  
+
+---
+
+### 🔄 Month Navigation
+- Navigate between months using arrows
+   
+- Includes smooth **flip animation effect** for better UX  
+
+---
+
+### 🌙 Dark Mode
+- Toggle between light and dark themes
+   
+- Improves accessibility and user preference  
+
+---
+
+### 🎨 UI/UX Enhancements
+- Glassmorphism design
+  
+- Smooth hover animations
+    
+- Clean spacing and layout
+   
+- Professional card-based UI  
+
+---
+
+### 📱 Responsive Design
+- Fully responsive across devices
+  
+- Desktop → Side-by-side layout  
+
+- Mobile → Stacked layout  
 
 ---
 
 ## 🛠 Tech Stack
 
 - React.js
-  
+    
 - JavaScript (ES6)
-  
-- CSS (Flexbox + Media Queries)
+   
+- CSS (Flexbox + Grid + Media Queries)  
 
 ---
 
 ## 🧠 Key Concepts Used
 
-- React State Management (`useState`, `useEffect`)
+- React Hooks (`useState`, `useEffect`)  
 
-- Event Handling
-  
-- Conditional Rendering
-  
-- Local Storage Integration
-  
-- Responsive Design using Media Queries
+- State Management  
+
+- Conditional Rendering  
+
+- Event Handling  
+
+-  Local Storage Integration  
+
+- Responsive UI Design  
+
+-  Animation Handling  
 
 ---
 
 ## 📦 Installation & Setup
 
-1. Clone the repository
-git clone https://github.com/AshaKommana/calendar-component.git
+git clone https://github.com/AshaKommana/calendar-project.git
 
-Navigate to project folder
-
-cd calendar-component
-
-Install dependencies
+cd calendar-project
 
 npm install
 
-Run the project
-
 npm start
-
----
 
 ## 🎥 Demo Video
 
-
-
-## 💡 Future Improvements
-Add animations (calendar flip effect)
-
-Add theme switching
-
-Add event-based notes per date
-
-Highlight holidays
+https://screenrec.com/share/3BcKWTYR2X
 
 ## 🙋‍♀️ Author
 
@@ -103,6 +145,11 @@ Computer Science Engineering Student
 ## ⭐ Conclusion
 
 This project demonstrates my ability to:
+
 Build responsive UI components
+
 Handle user interactions efficiently
+
 Apply frontend best practices using React
+
+
